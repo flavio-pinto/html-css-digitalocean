@@ -13,8 +13,16 @@ body {
  color: rgb(3, 27, 78);
 }
 
+.font-night-blue-transparent {
+  color: rgba(3, 27, 78, 0.7);
+}
+
 .font-light-blue {
   color: #0069ff;
+}
+
+.bkg-gray {
+  background: #f3f5f9;
 }
 
 
@@ -51,6 +59,10 @@ body {
 
 .second-menu .list-inline {
   padding-top: 4px;
+}
+
+.hamburger {
+  font-size: 40px;
 }
 
 /* JUMBOTRON STYLES */
@@ -113,6 +125,32 @@ body {
   padding-bottom: 20px;
 }
 
-h6 {
-  color: black;
+/* PARTNERSHIP AREA STYLES */
+#partnerships {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.partnerships-container li {
+  width: calc(100% / 6 - 10px);
+  vertical-align: middle;
+}
+
+@media all and (min-width: 750px) and (max-width: 969px) {
+  .partnerships-container li {
+    width: calc(100% / 3);
+  }
+}
+
+.partnerships-container a {
+  font-size: 16px;
+}
+
+.partnerships-container a i {
+  padding-left: 10px;
+}
+
+.partnerships-container a:hover {
+  text-decoration: none;
+  color: #0069ff;
 }
