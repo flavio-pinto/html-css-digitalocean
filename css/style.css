@@ -48,6 +48,15 @@ body {
   margin-bottom: 25px;
 }
 
+.small-box-mrg-btm-img {
+  margin-bottom: 10px;
+}
+
+.pad-tp-pad-btm50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /* HEADER NAV STYLES */
 #header-nav {
   font-size: 16px;
@@ -148,11 +157,6 @@ body {
 }
 
 /* PARTNERSHIP AREA STYLES */
-#partnerships {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .partnerships-container li {
   width: calc(100% / 6 - 10px);
   vertical-align: middle;
@@ -178,11 +182,6 @@ body {
 }
 
 /* DEPLOY AND SCALE AREA */
-#deploy-and-scale {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 #deploy-and-scale ul {
   padding: 0;
   margin-left: 0;
@@ -211,4 +210,20 @@ body {
 
 .deploy-and-scale-title {
   margin-bottom: 50px;
+}
+
+/* DESIGNED FOR DEVELOPERS AREA */
+.designed-for-developers-title {
+  margin-bottom: 50px;
+}
+
+.des-fo-dev-box {
+  height: 614px;
+  position: relative;
+}
+
+.des-fo-dev-box i {
+  position: absolute;
+  top: 50%;
+  font-size: 60px;
 }
