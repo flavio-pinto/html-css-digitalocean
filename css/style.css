@@ -25,6 +25,20 @@ body {
   background: #f3f5f9;
 }
 
+.title-style {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(3, 27, 78);
+}
+
+.subtitle-style {
+  font-size: 20px;
+}
+
+.small-box-title-style {
+  font-size: 18px;
+  font-weight: bold;
+}
 
 /* HEADER NAV STYLES */
 #header-nav {
@@ -153,4 +167,32 @@ body {
 .partnerships-container a:hover {
   text-decoration: none;
   color: #0069ff;
+}
+
+/* DEPLOY AND SCALE AREA */
+#deploy-and-scale ul {
+  padding: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+#deploy-and-scale li {
+  border-left: 2px solid rgba(3, 27, 78, 0.2);
+  list-style: none;
+}
+
+#deploy-and-scale li:hover {
+  color: rgb(3, 27, 78);
+}
+
+#deploy-and-scale li a {
+  font-size: 18px;
+  padding-left: 30px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.services-deploy-scale {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
