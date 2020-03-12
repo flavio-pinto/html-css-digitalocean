@@ -21,14 +21,22 @@ body {
   color: #0069ff;
 }
 
+.font-white {
+  color: white;
+}
+
 .bkg-gray {
   background: #f3f5f9;
+}
+
+.bkg-blue {
+  background: linear-gradient(#0048c5, #001e99);
 }
 
 .title-style {
   font-size: 36px;
   font-weight: bold;
-  color: rgb(3, 27, 78);
+
 }
 
 .subtitle-style {
@@ -237,3 +245,5 @@ body {
   text-decoration: none;
   color: #0069ff;
 }
+
+/* REGIONS AREA */
