@@ -19,6 +19,7 @@ body {
 
 .font-light-blue {
   color: #0069ff;
+  font-weight: 700;
 }
 
 .font-white {
@@ -33,6 +34,10 @@ body {
   background: #f3f5f9;
 }
 
+.bkg-white {
+  background: white;
+}
+
 .bkg-blue {
   background: linear-gradient(#0048c5, #001e99);
 }
@@ -40,7 +45,6 @@ body {
 .title-style {
   font-size: 36px;
   font-weight: bold;
-
 }
 
 .subtitle-style {
@@ -65,7 +69,7 @@ body {
 }
 
 .pad-tp-pad-btm50 {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
@@ -79,6 +83,10 @@ body {
 
 .bdr-btm-table {
   border-bottom: 1px solid white;
+}
+
+.pad-btm20 {
+  padding-bottom: 20px;
 }
 
 .smallrow-bdr-btm-white {
@@ -241,15 +249,21 @@ body {
 }
 
 /* DESIGNED FOR DEVELOPERS AREA */
-.des-fo-dev-box {
+.carousel-arrow-box {
   height: 614px;
   position: relative;
 }
 
-.des-fo-dev-box i {
+.carousel-arrow-box i {
   position: absolute;
   top: 50%;
   font-size: 60px;
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .carousel-arrow-box i {
+    top: 37%;
+  }
 }
 
 /* FEATURE BUSINESS AREA */
@@ -297,3 +311,47 @@ body {
 .test-speed a:hover {
   color: #0069ff;
 }
+
+/* DEVELOPER TEAMS EXPERIENCES AREA */
+.dev-carousel h5 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.dev-carousel span {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.dev-carousel a:hover {
+  text-decoration: none;
+  color: #0069ff;
+}
+
+.dev-carousel-arrow-box {
+  position: relative;
+  height: 219px;
+}
+
+.dev-carousel-arrow-box i {
+  position: absolute;
+  top: 60%;
+  font-size: 60px;
+}
+
+/* GET STARTED AREA */
+#get-started h2 {
+  margin-bottom: 20px;
+}
+
+#get-started .btn {
+  padding: 10px;
+}
+
+#get-started .btn-default {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0069ff;
+  border: 0;
