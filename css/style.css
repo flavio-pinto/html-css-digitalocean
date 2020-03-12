@@ -57,6 +57,10 @@ body {
   padding-bottom: 50px;
 }
 
+.mgn-btm50 {
+  margin-bottom: 50px;
+}
+
 /* HEADER NAV STYLES */
 #header-nav {
   font-size: 16px;
@@ -208,15 +212,7 @@ body {
   height: 150px;
 }
 
-.deploy-and-scale-title {
-  margin-bottom: 50px;
-}
-
 /* DESIGNED FOR DEVELOPERS AREA */
-.designed-for-developers-title {
-  margin-bottom: 50px;
-}
-
 .des-fo-dev-box {
   height: 614px;
   position: relative;
@@ -226,4 +222,18 @@ body {
   position: absolute;
   top: 50%;
   font-size: 60px;
+}
+
+/* FEATURE BUSINESS AREA */
+#feature-business a {
+  font-size: 16px;
+}
+
+#feature-business a i {
+  padding-left: 10px;
+}
+
+#feature-business a:hover {
+  text-decoration: none;
+  color: #0069ff;
 }
