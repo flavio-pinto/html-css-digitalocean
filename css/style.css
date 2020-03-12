@@ -22,6 +22,10 @@ body {
   font-weight: 700;
 }
 
+.dots-light-blue {
+  color: #0069ff;
+}
+
 .font-white {
   color: white;
 }
@@ -75,6 +79,10 @@ body {
 
 .mgn-btm50 {
   margin-bottom: 50px;
+}
+
+.pdng20 {
+  padding: 20px;
 }
 
 .pad-btm-table {
@@ -350,8 +358,56 @@ body {
   padding: 10px;
 }
 
+
 #get-started .btn-default {
   font-size: 18px;
   font-weight: 700;
   color: #0069ff;
   border: 0;
+}
+
+footer {
+  background: rgb(3, 27, 78);
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer h5 {
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+footer h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-left ul {
+  margin-top: 10px;
+}
+
+.footer-left ul li a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-left ul li a:hover {
+  color: white;
+}
+
+.useful-links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.useful-links li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.useful-links li a:hover {
+  color: white;
+}
