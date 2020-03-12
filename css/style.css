@@ -40,6 +40,14 @@ body {
   font-weight: bold;
 }
 
+.box-paragraph-style {
+  font-size: 16px;
+}
+
+.small-box-mrg-btm {
+  margin-bottom: 25px;
+}
+
 /* HEADER NAV STYLES */
 #header-nav {
   font-size: 16px;
@@ -170,6 +178,11 @@ body {
 }
 
 /* DEPLOY AND SCALE AREA */
+#deploy-and-scale {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #deploy-and-scale ul {
   padding: 0;
   margin-left: 0;
@@ -192,7 +205,10 @@ body {
   text-decoration: none;
 }
 
-.services-deploy-scale {
-  margin-top: 50px;
+.deploy-scale-box {
+  height: 150px;
+}
+
+.deploy-and-scale-title {
   margin-bottom: 50px;
 }
