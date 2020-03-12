@@ -25,6 +25,10 @@ body {
   color: white;
 }
 
+.opct06 {
+  opacity: 0.6;
+}
+
 .bkg-gray {
   background: #f3f5f9;
 }
@@ -67,6 +71,22 @@ body {
 
 .mgn-btm50 {
   margin-bottom: 50px;
+}
+
+.pad-btm-table {
+  padding-bottom: 10px;
+}
+
+.bdr-btm-table {
+  border-bottom: 1px solid white;
+}
+
+.smallrow-bdr-btm-white {
+  border-bottom: 1px solid white;
+}
+
+.pos-rel {
+  position: relative;
 }
 
 /* HEADER NAV STYLES */
@@ -247,3 +267,33 @@ body {
 }
 
 /* REGIONS AREA */
+.acronym {
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 50px;
+}
+
+.city-state,
+.test-speed {
+  font-size: 12px;
+}
+
+.city-state {
+  color: white;
+  opacity: 0.6;
+}
+
+.test-speed {
+  position: absolute;
+  right: 10px;
+  bottom: 2px;
+}
+
+.test-speed a {
+  text-decoration: none;
+  color: #00d7d2;
+}
+
+.test-speed a:hover {
+  color: #0069ff;
+}
