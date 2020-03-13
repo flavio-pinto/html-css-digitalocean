@@ -250,18 +250,6 @@ body {
   vertical-align: middle;
 }
 
-@media all and (min-width: 750px) and (max-width: 969px) {
-  .partnerships-container li {
-    width: calc(100% / 3);
-  }
-}
-
-@media all and (max-width: 749px) {
-  .partnerships-container li {
-    width: calc(100% / 3);
-  }
-}
-
 .partnerships-container a {
   font-size: 16px;
 }
@@ -318,6 +306,7 @@ body {
 
 /* REGIONS AREA */
 .acronym {
+  width: 45px;
   font-size: 13px;
   font-weight: 700;
   margin-right: 50px;
@@ -504,34 +493,4 @@ footer h4 {
   background: #fff;
   /* Rotazione */
   transform: rotate(45deg);
-}
-
-/* CHATBOX RESPONSIVE */
-@media all and (max-width: 1199px) {
-  #chatbox {
-    left: 20px;
-    bottom: 20px;
-  }
-
-  .chat-logo {
-    position: absolute;
-    left: 0;
-    bottom: 68px;
-  }
-
-  .message-box::before {
-    content: '';
-    position: absolute;
-    bottom: 60px;
-    left: 25px;
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    /* Rotazione */
-    transform: rotate(45deg);
-  }
-
-  footer {
-    height: auto;
-  }
 }
