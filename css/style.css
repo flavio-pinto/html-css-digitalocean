@@ -256,6 +256,12 @@ body {
   }
 }
 
+@media all and (max-width: 749px) {
+  .partnerships-container li {
+    width: calc(100% / 3);
+  }
+}
+
 .partnerships-container a {
   font-size: 16px;
 }
