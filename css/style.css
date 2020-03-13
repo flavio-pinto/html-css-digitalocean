@@ -22,10 +22,6 @@ body {
   font-weight: 700;
 }
 
-.dots-light-blue {
-  color: #0069ff;
-}
-
 .font-white {
   color: white;
 }
@@ -103,6 +99,50 @@ body {
 
 .pos-rel {
   position: relative;
+}
+
+/* CAROUSELS UTILITIES */
+.arrow-box-left,
+.arrow-box-right {
+  font-size: 60px;
+  transform: translateY(-50%);
+}
+
+.arrow-box-left:hover,
+.arrow-box-right:hover {
+  color: #0069ff;
+  cursor: pointer;
+}
+
+.arrow-box-left {
+  position: absolute;
+  left: -54px;
+  top: 50%;
+}
+
+.arrow-box-right {
+  position: absolute;
+  right: -54px;
+  top: 50%;
+}
+
+.carousel-dots {
+  margin-top: 20px;
+}
+
+.carousel-dots li {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  height: 12px;
+  width: 12px;
+  border: 1px solid #0069ff;
+  border-radius: 50%;
+}
+
+.carousel-dots li:hover {
+  background: #0069ff;
+  cursor: pointer;
 }
 
 /* HEADER NAV STYLES */
@@ -256,24 +296,6 @@ body {
   height: 150px;
 }
 
-/* DESIGNED FOR DEVELOPERS AREA */
-.carousel-arrow-box {
-  height: 614px;
-  position: relative;
-}
-
-.carousel-arrow-box i {
-  position: absolute;
-  top: 50%;
-  font-size: 60px;
-}
-
-@media all and (min-width: 992px) and (max-width: 1199px) {
-  .carousel-arrow-box i {
-    top: 37%;
-  }
-}
-
 /* FEATURE BUSINESS AREA */
 #feature-business a {
   font-size: 16px;
@@ -321,32 +343,32 @@ body {
 }
 
 /* DEVELOPER TEAMS EXPERIENCES AREA */
-.dev-carousel h5 {
+.exp-box {
+  padding: 50px;
+}
+
+.exp-box img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
+.exp-box h5 {
   font-size: 15px;
   font-weight: 700;
   margin-bottom: 2px;
   display: block;
 }
 
-.dev-carousel span {
+.exp-box span {
   display: block;
   margin-bottom: 30px;
 }
 
-.dev-carousel a:hover {
+.exp-box a:hover {
   text-decoration: none;
   color: #0069ff;
-}
-
-.dev-carousel-arrow-box {
-  position: relative;
-  height: 219px;
-}
-
-.dev-carousel-arrow-box i {
-  position: absolute;
-  top: 60%;
-  font-size: 60px;
 }
 
 /* GET STARTED AREA */
